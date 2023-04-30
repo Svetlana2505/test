@@ -1,0 +1,46 @@
+.logo1 {
+  width: 135px;
+  margin: 0 auto;
+  margin-bottom: 33px;
+
+  @media screen and (min-width: 768px) {
+    width: 300px;
+    margin-bottom: 12px;
+  }
+}
+
+.time_title {
+  color: var(--text_color);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+    line-height: 1.22;
+    margin-bottom: 16px;
+  }
+}
+
+.accent {
+  color: #00c340;
+}
+
+.time_text {
+  color: var(--text_color);
+  font-size: 17px;
+  line-height: 1.47;
+  margin-bottom: 15px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.55;
+    margin-bottom: 25px;
+    padding: 0 15%;
+  }
+}
+
+.img-tab {
+  margin-bottom: 15px;
+}

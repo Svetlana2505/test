@@ -1,0 +1,110 @@
+.hero {
+  background: radial-gradient(circle, #032105 0 35%, #000 100%);
+}
+
+.logo {
+  width: 135px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    width: 300px;
+  }
+}
+
+.text {
+  color: var(--secondary_color);
+  font-size: 11px;
+  margin: 20px 0;
+  text-transform: uppercase;
+
+  @media screen and(min-width:768px) {
+    font-size: 20px;
+  }
+}
+
+.title {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1.23;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 65px;
+    line-height: 1;
+    padding: 0 8%;
+  }
+}
+
+.subtext {
+  font-size: 16px;
+  line-height: 1.37;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.55;
+    margin-bottom: 25px;
+    padding: 0 10%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 0 20%;
+  }
+}
+
+.price {
+  @media screen and (min-width: 768px) {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.old-price {
+  color: #fc2901;
+  padding: 15px 0;
+  font-weight: 700;
+  font-size: 35px;
+  text-decoration: line-through;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 70px;
+  }
+}
+
+.new-price {
+  padding: 15px 0;
+  font-weight: 700;
+  font-size: 56px;
+  margin-bottom: 15px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 70px;
+  }
+}
+
+.discount span {
+  font-size: 25px;
+  line-height: 1.24;
+  margin-bottom: 15px;
+  background-color: #fc2901;
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 7px;
+  }
+}
+
+.btn {
+  color: var(--primary-color);
+  background-color: #00c340;
+  border-radius: 10px;
+  padding: 15px 50px;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 15px 0;
+  display: inline-block;
+}

@@ -1,0 +1,14 @@
+.chatgpt_title {
+  color: var(--text_color);
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+
+.chatgpt_text {
+  color: var(--text_color);
+  font-size: 17px;
+  line-height: 1.47;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}

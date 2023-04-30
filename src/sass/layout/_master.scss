@@ -1,0 +1,40 @@
+.master-title {
+  color: var(--text_color);
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.master-list {
+  @media screen and(min-width:768px) {
+    display: flex;
+  }
+}
+
+.master-item {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+
+    @media screen and(min-width:768px) {
+      margin-bottom: 0;
+      margin-right: 20px;
+    }
+  }
+}
+
+.master-number {
+  color: var(--text_color);
+}
+
+.master-text {
+  color: var(--text_color);
+  font-size: 15px;
+}
+
+.master-number {
+  font-size: 25px;
+  font-weight: 800;
+}
